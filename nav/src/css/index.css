@@ -2,7 +2,7 @@
             padding: 0;
             background: rgba(0, 0, 0, 0.1);
             height: 25px;
-            border-bottom: 1px solid #eee;
+            border-bottom: 1px solid rgba(238, 238, 238, 0.1);
         }
         
         .nav_top .navbar {
