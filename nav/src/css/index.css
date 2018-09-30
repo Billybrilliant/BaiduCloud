@@ -551,6 +551,16 @@
             width: 400px !important;
         }
         
+        .all-product {
+            color: #999;
+            float: right;
+            margin-right: 35px;
+        }
+        
+        .change2 {
+            color: #fff !important;
+        }
+        
         .hover {
             padding-left: 53px !important;
             background: #1B1B25 !important;

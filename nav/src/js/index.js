@@ -21,9 +21,12 @@ $(function() {
     $('.product-list>li').hover(function() {
         $(this).addClass('hover change').siblings().removeClass('hover change')
         $(this).children('span').addClass('show')
+        $(this).children('i').addClass('change2')
         $(this).children('.menu').addClass('show')
         $(this).siblings().children('span').removeClass('show')
         $(this).siblings().children('.menu').removeClass('show')
 
+    }, function() {
+        $(this).children('i').removeClass('change2')
     })
 })
