@@ -35,15 +35,19 @@
   background-position: -170px 0;
 }
 
-.slider .slider-list {
+.slider .active {
+  background: #fff !important;
+}
+
+.slider .li-List {
+  top: 468px;
+}
+
+.slider .li-List > .slider-list {
   width: 24px;
   height: 3px;
   border: none;
   border-radius: 0;
   background: rgba(238, 238, 238, 0.301);
   margin: 0;
-}
-
-.slider .active {
-  background: #fff !important;
 }

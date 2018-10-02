@@ -31,15 +31,18 @@
             }
         }
     }
-    .slider-list {
-        width: 24px;
-        height: 3px;
-        border: none;
-        border-radius: 0;
-        background: rgba(238, 238, 238, 0.301);
-        margin: 0;
-    }
     .active {
         background: #fff !important;
+    }
+    .li-List {
+        top: 468px;
+        >.slider-list {
+            width: 24px;
+            height: 3px;
+            border: none;
+            border-radius: 0;
+            background: rgba(238, 238, 238, 0.301);
+            margin: 0;
+        }
     }
 }
