@@ -103,17 +103,21 @@
             margin: 0;
         }
     }
-    .next,
-    .previous {
-        display: block;
-        margin-top: 300px;
-        font-size: 48px;
-        text-align: left;
-        padding-left: 50px;
+    .left,
+    .right {
+        .next,
+        .previous {
+            position: absolute;
+            top: 300px;
+            font-size: 48px;
+        }
     }
-    .next {
-        padding-right: 50px;
-        text-align: right;
+    .nav-btm {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
     }
 }
 
