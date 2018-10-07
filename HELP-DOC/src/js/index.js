@@ -62,4 +62,40 @@ $('.up_5').on('click',function(event){
     $('.up_5').toggle();
     $('.down_5').toggle();
 });
-// ==================================================
+// ===================第二栏===============================
+$('.down_s4').on('click',function(event){
+    event.preventDefault();
+    $('.d_p_s4').toggle();
+    $('.up_s4').toggle();
+    $('.down_s4').toggle();
+});
+$('.up_s4').on('click',function(event){
+    event.preventDefault();
+    $('.d_p_s4').toggle();
+    $('.up_s4').toggle();
+    $('.down_s4').toggle();
+});
+$('.down_s5').on('click',function(event){
+    event.preventDefault();
+    $('.d_p_s5').toggle();
+    $('.up_s5').toggle();
+    $('.down_s5').toggle();
+});
+$('.up_s5').on('click',function(event){
+    event.preventDefault();
+    $('.d_p_s5').toggle();
+    $('.up_s5').toggle();
+    $('.down_s5').toggle();
+});
+$('.down_s6').on('click',function(event){
+    event.preventDefault();
+    $('.d_p_s6').toggle();
+    $('.up_s6').toggle();
+    $('.down_s6').toggle();
+});
+$('.up_s6').on('click',function(event){
+    event.preventDefault();
+    $('.d_p_s6').toggle();
+    $('.up_s6').toggle();
+    $('.down_s6').toggle();
+});
