@@ -90,10 +90,6 @@ ul>li>a>span{
     color: #333;
 }
 /* ============================================================= */
-.nav_list>ul>li:first-child{
-    background-image: url();
-    background-position: 20%;
-}
 .work_production{
     width: 100%;
     background: #fff;
