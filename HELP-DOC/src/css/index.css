@@ -9,46 +9,58 @@ li{
     color: rgba(255,255,255,0.8); 
 }
 
-
-#sousuo{
+@media (min-width: 1360px) {
+    #sousuo{
+        width: 100%;
+    }
+ }
+ @media (max-width: 1200px) {
+    #sousuo{
+        width: 1360px!important;
+    }
+ }
+ #sousuo{
     height: 300px;
     width: 100%;
     background-image:url(../img/d31b0ef41bd5ad6e149c500d8dcb39dbb7fd3ceb.jpg); 
     background-size: 100% 100%;
     background-repeat: no-repeat;
-}
+ }
+
 #help_center{
     font-size: 36px;
     color: #fff;
 }
 #help_sousuo{
+    width: 1180px;
+    margin: 0 auto;
     position: relative;
     top: 110px;
 }
-#basic-addon2{
-    width: 125px;
+#commit{
+    width: 10%;
+    height: 50px!important;
     background: #108CEE;
     border:none;
     color: #fff;
 }
 #tuijie{
     display: block;
-    margin: 0 auto;
-
+    margin-left: 0!important;
+    padding-left: 0!important;
 }
 #tuijie>li{
     list-style: none;
     float: left;
 }
-#tuijie>li:first-child{
-    padding-left: 14px;
-}
+
 #tuijie>li>a{
     font-size: 14px;
 }
 #tuijie>li>a:hover{
     color: rgba(255,255,255,0.8); 
 }
+/* ============================================================= */
 
 .nav{
     width: 100%;
@@ -59,8 +71,6 @@ li{
     height: 70px;
     width: 1180px;
     margin: 0 auto;
-    margin-left: 10%;
-    margin-right: 10%;
 }
 .nav_list>ul{
     width: 100%;
@@ -90,9 +100,14 @@ ul>li>a>span{
 }
 .w_p,.w_p_1,.w_p_2,.w_p_3{
     width: 1180px;
-    margin-left: 10%;
-    margin-right: 10%; 
+    /*margin-left: 10%;
+    margin-right: 10%;  */
     overflow: hidden;
+    margin: 0 auto!important;
+}
+.work_production>div>div>ul>li>a{
+    color: #999;
+
 }
 .row-1,.row-2,.row-3,.row-4,.row-5{
     width: 20%;
