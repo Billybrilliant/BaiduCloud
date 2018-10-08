@@ -88,7 +88,7 @@ ul>li>a>span{
     width: 100%;
     background: #fff;
 }
-.w_p,.w_p_1,.w_p_2{
+.w_p,.w_p_1,.w_p_2,.w_p_3{
     width: 1180px;
     margin-left: 10%;
     margin-right: 10%; 
@@ -471,12 +471,6 @@ h3{
 
 /* =====================第三栏======================== */
 
-.w_p_2{
-    width: 1180px;
-    margin-left: 10%;
-    margin-right: 10%; 
-    overflow: hidden;
-}
 .row-2-1,.row-2-2,.row-2-3,.row-2-4,.row-2-5{
     width: 20%;
     float: left;
@@ -520,9 +514,191 @@ h3{
     color:blue!important;
     text-decoration: none;
 }
+/* ========================================= */
+.row-2-2>ul{
+    width: 100%;
+    height: 100%;
+}
+.row-2-2>ul>li{
+    width: 100%;
+    border-bottom: 1px solid #c0c0c0;
+}
+.row-2-2>ul>li:hover{
+    border-bottom: 1px solid black;
+}
 
+.row-2-2>ul>li>a{
+    font-size: 14px; 
+    height: 48px;
+    line-height: 48px;  
+    color:#333;
+}
+/* ====展开和收起的公共样式===== */
+.down_t2{
+    border: none!important;
+}
+.up_t2{
+    border: none!important;
+}
+/* ========== */
+.down_t2>a{
+    color:blue!important;
+    text-decoration: none;
+}
 
+.up_t2{
+    border: none!important;
+}
+.up_t2>a{
+    color:blue!important;
+    text-decoration: none;
+}
+/* --------------------------------------------- */
+.row-2-3>ul{
+    width: 100%;
+    height: 100%;
+}
+.row-2-3>ul>li{
+    width: 100%;
+    border-bottom: 1px solid #c0c0c0;
+}
+.row-2-3>ul>li:hover{
+    border-bottom: 1px solid black;
+}
 
+.row-2-3>ul>li>a{
+    font-size: 14px; 
+    height: 48px;
+    line-height: 48px;  
+    color:#333;
+}
+/* ====展开和收起的公共样式===== */
+.down_t3{
+    border: none!important;
+}
+.up_t3{
+    border: none!important;
+}
+/* ========== */
+.down_t3>a{
+    color:blue!important;
+    text-decoration: none;
+}
+
+.up_t3{
+    border: none!important;
+}
+.up_t3>a{
+    color:blue!important;
+    text-decoration: none;
+}
+
+/* =================================================== */
+.row-2-4>ul{
+    width: 100%;
+    height: 100%;
+}
+.row-2-4>ul>li{
+    width: 100%;
+    border-bottom: 1px solid #c0c0c0;
+}
+.row-2-4>ul>li:hover{
+    border-bottom: 1px solid black;
+}
+
+.row-2-4>ul>li>a{
+    font-size: 14px; 
+    height: 48px;
+    line-height: 48px;  
+    color:#333;
+}
+/* ====展开和收起的公共样式===== */
+.down_t4{
+    border: none!important;
+}
+.up_t4{
+    border: none!important;
+}
+/* ========== */
+.down_t4>a{
+    color:blue!important;
+    text-decoration: none;
+}
+
+.up_t4{
+    border: none!important;
+}
+.up_t4>a{
+    color:blue!important;
+    text-decoration: none;
+}
+/* ================================================= */
+.row-2-5>ul{
+    width: 100%;
+    height: 100%;
+}
+.row-2-5>ul>li{
+    width: 100%;
+    border-bottom: 1px solid #c0c0c0;
+}
+.row-2-5>ul>li:hover{
+    border-bottom: 1px solid black;
+}
+
+.row-2-5>ul>li>a{
+    font-size: 14px; 
+    height: 48px;
+    line-height: 48px;  
+    color:#333;
+}
+/* ====展开和收起的公共样式===== */
+.down_t5{
+    border: none!important;
+}
+.up_t5{
+    border: none!important;
+}
+/* ========== */
+.down_t5>a{
+    color:blue!important;
+    text-decoration: none;
+}
+
+.up_t5{
+    border: none!important;
+}
+.up_t5>a{
+    color:blue!important;
+    text-decoration: none;
+}
+.d_p_t,.up_t,.d_p_t2,.up_t2,.d_p_t3,.up_t3,.d_p_t4,.up_t4,.up_t5,.d_p_t5{
+    display: none;
+}
+/* ========================第四栏================================ */
+.row-3-1{
+    width: 20%;
+    float: left;
+}
+
+.row-3-1>ul{
+    width: 100%;
+    height: 100%;
+}
+.row-3-1>ul>li{
+    width: 100%;
+    border-bottom: 1px solid #c0c0c0;
+}
+.row-3-1>ul>li:hover{
+    border-bottom: 1px solid black;
+}
+
+.row-3-1>ul>li>a{
+    font-size: 14px; 
+    height: 48px;
+    line-height: 48px;  
+    color:#333;
+}
+/* ========================================================================== */
 
 
 
