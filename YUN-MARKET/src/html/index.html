@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>云市场</title>
     <link href="../../../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <!--[if lt IE 9]>
       <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
@@ -15,12 +16,17 @@
     <link rel="stylesheet" href="../css/yushichang.css">
     <link rel="stylesheet" href="../iconfond/font_ubzwxc7jea/iconfont.css">
     <link rel="stylesheet" href="../iconfond/font_mn6e4i303x/iconfont.css">
-    <link rel="stylesheet" href="../../../nav/src/html/index.html">
+    <link rel="import" href="../../../nav/src/html/index.html" id="page1">
     <link rel="stylesheet" href="../../../nav/src/css/index.css">
-
+    <script src="../../../bower_components/jquery/dist/jquery.min.js"></script>
 </head>
 
 <body>
+    <header>
+        <script>
+            console.log(page1.import.body.innerHTML);
+        </script>
+    </header>
 
     <div class="row hidden-xs hidden-sm">
         <div class="container">
