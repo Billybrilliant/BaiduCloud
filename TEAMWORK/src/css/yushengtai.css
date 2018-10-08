@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+.banner {
+    background-image: url("../images/ecology-banner.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 1920px 542px;
+    color: #fff;
+}
+
+.banner a:nth-child(1) {
+    background-color: #108cee;
+}
+
+.main {
+    width: 1280px;
+}
+
+@media (min-width: 1170px) {
+    .banner {
+        height: 382px;
+    }
+    .banner h2 {
+        margin-top: 70px;
+        font-size: 42px;
+    }
+    .banner p {
+        margin-top: 15px;
+        font-size: 16px;
+        opacity: 0.8;
+    }
+    .banner a:nth-child(1) {
+        width: 158px;
+        height: 36px;
+        background-color: #108cee;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    .banner a:nth-child(2) {
+        width: 158px;
+        height: 36px;
+        font-size: 14px;
+        cursor: pointer;
+        margin-left: 15px;
+    }
+    .banner .btns {
+        margin-top: 38px;
+    }
+    .tt>div {
+        margin-top: -60px;
+        box-shadow: 1px 1px 1px #eee;
+        background-color: #fff;
+        padding: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner {
+        height: 200px;
+    }
+    .banner h2 {
+        margin-top: 50px;
+        font-size: 16px;
+    }
+    .banner p {
+        margin-top: 15px;
+        font-size: 8px;
+        opacity: 0.8;
+    }
+    .banner a:nth-child(1) {
+        /* width: 80px;
+        height: 30px; */
+        background-color: #108cee;
+        font-size: 10px;
+        cursor: pointer;
+        padding: 5px 5px;
+    }
+    .banner a:nth-child(2) {
+        /* width: 80px;
+        height: 30px; */
+        font-size: 10px;
+        cursor: pointer;
+        margin-left: 15px;
+        padding: 5px 5px;
+    }
+    .tt>div {
+        margin-top: -20px;
+        box-shadow: 1px 1px 1px #ccc;
+        background-color: #fff;
+        padding: 5px;
+    }
+    .list h4 {
+        font-size: 10px;
+    }
+    .list p {
+        font-size: 6px;
+    }
+}
