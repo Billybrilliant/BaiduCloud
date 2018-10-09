@@ -1,4 +1,12 @@
 @charset "utf-8";
+#nav{
+    position: absolute !important;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+
+    
+}
  /* 背景图 */
 
 .head{
@@ -290,7 +298,7 @@
 }
 .list ul li a:hover{
     color: lightskyblue;
-    text-decoration: lightblue;
+    text-decoration: underline;
 }
 .big{
     width: 578px;
