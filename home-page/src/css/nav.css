@@ -2,7 +2,7 @@
             padding: 0;
             background: rgba(0, 0, 0, 0.1);
             height: 25px;
-            border-bottom: 1px solid #eee;
+            border-bottom: 1px solid rgba(238, 238, 238, 0.1);
         }
         
         .nav_top .navbar {
@@ -549,6 +549,16 @@
         .m-memory {
             margin-top: -100px !important;
             width: 400px !important;
+        }
+        
+        .all-product {
+            color: #999;
+            float: right;
+            margin-right: 35px;
+        }
+        
+        .change2 {
+            color: #fff !important;
         }
         
         .hover {
